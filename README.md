@@ -2,7 +2,7 @@
 
 # Connects to a provided Socket.IO backend that streams drones as GeoJSON once per second.
 
-<!-- Features
+Features
 
 Live map of drones with oriented arrows (yaw)
 
@@ -20,9 +20,9 @@ Dashboard: currently flying, seen in last 24h, inactive (24h), compliance, recen
 
 Handles high message rates smoothly (rAF batching, efficient Mapbox updates)
 
-Responsive layout; accessible colors and interactions -->
+Responsive layout; accessible colors and interactions
 
-<!-- Tech Stack
+Tech Stack
 
 React (Vite)
 
@@ -32,7 +32,7 @@ Socket.IO client (long-polling to match backend)
 
 Plain CSS (no framework; easy to read)
 
-LocalStorage for lightweight 24h history persistence -->
+LocalStorage for lightweight 24h history persistence
 
 # running locally :
 
